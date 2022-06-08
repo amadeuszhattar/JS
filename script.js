@@ -1,7 +1,7 @@
 const choices = ["rock", "paper", "scissors"];
 let winners = [];
 
-function game() {
+function computerPlay() {
   for (let i = 1; i <= 5; i++) {
     playRound(i);
   }
