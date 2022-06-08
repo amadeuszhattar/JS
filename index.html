@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <h1>Rock Paper Scissors</h1>
+    <h3>Choose your move</h3>
+
+    <div class="moves">
+      <button class="pick" id="rock"><img src="images/rock.webp" style="height:300px"></button>
+      <button class="pick" id="scissors"><img src="images/scissors.webp" style="height:300px"></button>
+      <button class="pick" id="paper"><img src="images/paper.png" style="height:300px"></button>
+    </div>
+
+    <div class="results">
+      <div>
+        <span>Players Move:</span>
+        <span id="player-move"></span>
+      </div>
+
+      <div>
+        <span>Computer Move:</span>
+      <span id="computer-move"></span>
+    </div>
+
+    <div id="result">
+      <div>
+        You
+        <span class="result-score">0</span>
+      </div>
+      <div>
+        Computer
+        <span class="result-score">0</span>
+      </div>
+
+    </div>
+
+    <script src="functions.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
